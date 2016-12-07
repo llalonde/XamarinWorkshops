@@ -76,6 +76,9 @@ namespace ActivityLifecycleDemo
             SetStatus($"{ActivityName} Stopped");
         }
 
+        //TODO: note about leaving base calls 
+
+        //TODO: Hint for how to set and get information from bundle
         protected override void OnSaveInstanceState(Bundle outState)
         {
             base.OnSaveInstanceState(outState);
@@ -88,6 +91,7 @@ namespace ActivityLifecycleDemo
             base.OnRestoreInstanceState(savedInstanceState);
             if (savedInstanceState != null)
             {
+                savedInstanceState.Get()
                 statusTextView.Text = savedInstanceState.GetString(StatusKey);
                 SetStatus($"{ActivityName} Restored instance state");
             }

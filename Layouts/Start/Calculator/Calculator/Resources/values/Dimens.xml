@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <dimen name="FontsizeXLarge">36dp</dimen>
+  <dimen name="FontsizeLarge">24dp</dimen>
+  <dimen name="FontsizeMedium">20dp</dimen>
+  <dimen name="FontsizeSmall">16dp</dimen>
+  <dimen name="FontsizeXSmall">12dp</dimen>
+
+  <dimen name="GridMargin">10dp</dimen>
+  <dimen name="ButtonMargin">4dp</dimen>
+</resources>
