@@ -2,9 +2,7 @@
 <resources>
   <color name="DefaultButtonBackground">#1b9be5</color>
   <color name="DefaultPressedButtonBackground">#08657f</color>
-  
   <color name="DefaultTextColor">#1b9be5</color>
-
   <color name="TransparentDefaultBackground">#CCEBEBEB</color>
 
 </resources>
